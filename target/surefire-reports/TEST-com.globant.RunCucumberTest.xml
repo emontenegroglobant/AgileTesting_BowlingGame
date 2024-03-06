@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.globant.RunCucumberTest" time="0.358" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\erika.montenegro\Documents\Cursos_GlobantUniversity\AgileTesting\bowling\target\test-classes;C:\Users\erika.montenegro\Documents\Cursos_GlobantUniversity\AgileTesting\bowling\target\classes;C:\Users\erika.montenegro\.m2\repository\io\cucumber\cucumber-java\7.8.0\cucumber-java-7.8.0.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\cucumber-core\7.8.0\cucumber-core-7.8.0.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\cucumber-gherkin\7.8.0\cucumber-gherkin-7.8.0.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.8.0\cucumber-gherkin-messages-7.8.0.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\messages\19.1.2\messages-19.1.2.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\datatable\7.8.0\datatable-7.8.0.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\cucumber-plugin\7.8.0\cucumber-plugin-7.8.0.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\docstring\7.8.0\docstring-7.8.0.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\erika.montenegro\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.8.0\cucumber-junit-platform-engine-7.8.0.jar;C:\Users\erika.montenegro\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;C:\Users\erika.montenegro\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\erika.montenegro\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\erika.montenegro\.m2\repository\org\junit\platform\junit-platform-suite\1.9.0\junit-platform-suite-1.9.0.jar;C:\Users\erika.montenegro\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.0\junit-platform-suite-api-1.9.0.jar;C:\Users\erika.montenegro\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.0\junit-platform-suite-engine-1.9.0.jar;C:\Users\erika.montenegro\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.0\junit-platform-suite-commons-1.9.0.jar;C:\Users\erika.montenegro\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.0\junit-platform-launcher-1.9.0.jar;C:\Users\erika.montenegro\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\erika.montenegro\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\erika.montenegro\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\erika.montenegro\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="C:\Users\erika.montenegro\AppData\Local\Temp\surefire17161199862138801715\surefirebooter-20240306151531431_3.jar C:\Users\erika.montenegro\AppData\Local\Temp\surefire17161199862138801715 2024-03-06T15-15-30_184-jvmRun1 surefire-20240306151531431_1tmp surefire_0-20240306151531431_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\erika.montenegro\Documents\Cursos_GlobantUniversity\AgileTesting\bowling\target\test-classes;C:\Users\erika.montenegro\Documents\Cursos_GlobantUniversity\AgileTesting\bowling\target\classes;C:\Users\erika.montenegro\.m2\repository\io\cucumber\cucumber-java\7.8.0\cucumber-java-7.8.0.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\cucumber-core\7.8.0\cucumber-core-7.8.0.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\cucumber-gherkin\7.8.0\cucumber-gherkin-7.8.0.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.8.0\cucumber-gherkin-messages-7.8.0.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\gherkin\24.0.0\gherkin-24.0.0.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\messages\19.1.2\messages-19.1.2.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\datatable\7.8.0\datatable-7.8.0.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\cucumber-plugin\7.8.0\cucumber-plugin-7.8.0.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\docstring\7.8.0\docstring-7.8.0.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\erika.montenegro\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\erika.montenegro\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.8.0\cucumber-junit-platform-engine-7.8.0.jar;C:\Users\erika.montenegro\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;C:\Users\erika.montenegro\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\erika.montenegro\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\erika.montenegro\.m2\repository\org\junit\platform\junit-platform-suite\1.9.0\junit-platform-suite-1.9.0.jar;C:\Users\erika.montenegro\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.0\junit-platform-suite-api-1.9.0.jar;C:\Users\erika.montenegro\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.0\junit-platform-suite-engine-1.9.0.jar;C:\Users\erika.montenegro\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.0\junit-platform-suite-commons-1.9.0.jar;C:\Users\erika.montenegro\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.0\junit-platform-launcher-1.9.0.jar;C:\Users\erika.montenegro\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\erika.montenegro\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\erika.montenegro\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\erika.montenegro\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\erika.montenegro"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\erika.montenegro\Documents\Cursos_GlobantUniversity\AgileTesting\bowling"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\erika.montenegro\AppData\Local\Temp\surefire17161199862138801715\surefirebooter-20240306151531431_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.21+9-LTS-193"/>
+    <property name="user.name" value="erika.montenegro"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\erika.montenegro\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ERIKA~1.MON\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.21"/>
+    <property name="user.dir" value="C:\Users\erika.montenegro\Documents\Cursos_GlobantUniversity\AgileTesting\bowling"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\ActiveState Komodo Edit 12\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Java\jdk-11\bin;C:\Users\erika.montenegro\AppData\Local\Android\Sdk\build-tools;C:\Users\erika.montenegro\AppData\Local\Android\Sdk\platform-tools;C:\Users\erika.montenegro\AppData\Local\Android\Sdk\tools;C:\Users\erika.montenegro\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\Program Files (x86)\InvGate\Insight Agent;C:\Program Files\Git\cmd;C:\Users\erika.montenegro\Downloads\apache-maven-3.9.6-bin\apache-maven-3.9.6\bin;C:\Users\erika.montenegro\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.3.2\bin;;C:\Users\erika.montenegro\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\erika.montenegro\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\erika.montenegro\AppData\Roaming\npm;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.21+9-LTS-193"/>
+    <property name="java.specification.maintenance.version" value="2"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="Gutter game" classname="Bowling Game Score" time="0.092">
+    <system-out><![CDATA[
+Scenario: Gutter game                                                      &amp#27;[90m# com/globant/BowlingGame.feature:7&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma bowling game&amp#27;[0m                                                     &amp#27;[90m# com.globant.StepDefinitions.aBowlingGame()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI roll the following line &amp#27;[0m&amp#27;[32m&amp#27;[1m"0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"&amp#27;[0m &amp#27;[90m# com.globant.StepDefinitions.whenIRollLine(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmy score is &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m                                                       &amp#27;[90m# com.globant.StepDefinitions.theScenarioPasses(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Game all ones" classname="Bowling Game Score" time="0.007">
+    <system-out><![CDATA[
+Scenario: Game all ones                                                    &amp#27;[90m# com/globant/BowlingGame.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma bowling game&amp#27;[0m                                                     &amp#27;[90m# com.globant.StepDefinitions.aBowlingGame()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI roll the following line &amp#27;[0m&amp#27;[32m&amp#27;[1m"1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1"&amp#27;[0m &amp#27;[90m# com.globant.StepDefinitions.whenIRollLine(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmy score is &amp#27;[0m&amp#27;[32m&amp#27;[1m20&amp#27;[0m                                                      &amp#27;[90m# com.globant.StepDefinitions.theScenarioPasses(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Game with spare" classname="Bowling Game Score" time="0.009">
+    <system-out><![CDATA[
+Scenario: Game with spare                                                  &amp#27;[90m# com/globant/BowlingGame.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma bowling game&amp#27;[0m                                                     &amp#27;[90m# com.globant.StepDefinitions.aBowlingGame()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI roll the following line &amp#27;[0m&amp#27;[32m&amp#27;[1m"5,5,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"&amp#27;[0m &amp#27;[90m# com.globant.StepDefinitions.whenIRollLine(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmy score is &amp#27;[0m&amp#27;[32m&amp#27;[1m16&amp#27;[0m                                                      &amp#27;[90m# com.globant.StepDefinitions.theScenarioPasses(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Game with strike" classname="Bowling Game Score" time="0.016">
+    <system-out><![CDATA[
+Scenario: Game with strike                                                &amp#27;[90m# com/globant/BowlingGame.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma bowling game&amp#27;[0m                                                    &amp#27;[90m# com.globant.StepDefinitions.aBowlingGame()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI roll the following line &amp#27;[0m&amp#27;[32m&amp#27;[1m"10,5,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"&amp#27;[0m &amp#27;[90m# com.globant.StepDefinitions.whenIRollLine(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmy score is &amp#27;[0m&amp#27;[32m&amp#27;[1m26&amp#27;[0m                                                     &amp#27;[90m# com.globant.StepDefinitions.theScenarioPasses(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Perfect game" classname="Bowling Game Score" time="0.007">
+    <system-out><![CDATA[
+Scenario: Perfect game                                                 &amp#27;[90m# com/globant/BowlingGame.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma bowling game&amp#27;[0m                                                 &amp#27;[90m# com.globant.StepDefinitions.aBowlingGame()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI roll the following line &amp#27;[0m&amp#27;[32m&amp#27;[1m"10,10,10,10,10,10,10,10,10,10,10,10"&amp#27;[0m &amp#27;[90m# com.globant.StepDefinitions.whenIRollLine(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmy score is &amp#27;[0m&amp#27;[32m&amp#27;[1m300&amp#27;[0m                                                 &amp#27;[90m# com.globant.StepDefinitions.theScenarioPasses(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Partial game" classname="Bowling Game Score" time="0.014">
+    <system-out><![CDATA[
+Scenario: Partial game                     &amp#27;[90m# com/globant/BowlingGame.feature:37&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma bowling game&amp#27;[0m                     &amp#27;[90m# com.globant.StepDefinitions.aBowlingGame()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI roll the following line &amp#27;[0m&amp#27;[32m&amp#27;[1m"5,5,3,0"&amp#27;[0m &amp#27;[90m# com.globant.StepDefinitions.whenIRollLine(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mmy score is &amp#27;[0m&amp#27;[32m&amp#27;[1m16&amp#27;[0m                      &amp#27;[90m# com.globant.StepDefinitions.theScenarioPasses(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
